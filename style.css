@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+}
+
+.logo {
+	background:url(images/background.jpg);
+	width: 100%;
+	height: 300px;;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.footer {
+	width: 100%;
+	background:url(images/background.jpg);
+	line-height:30px;
+	color:#FFF;
+	padding: 0;
+}
+
+.footer li {
+	text-align:left;
+}
+
+#menu ul {
+	border-top:#666 solid 2px;
+	list-style-type: none;
+	background:url(images/background-tab.jpg);
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li {
+  color: #f1f1f1;
+  display: inline-table;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  font-weight:bold;
+}
+
+#menu ul li a {
+  color: #f1f1f1;
+  text-decoration: none;
+  display: block;
+  font-weight:bold;
+}
+
+#menu ul li a:hover {
+  background: #f1f1f1;
+  color: #333;
+}
+
+#menu ul li > .sub-menu {
+  display: none;
+  position: absolute;
+}
+
+#menu ul li:hover > .sub-menu {
+  display: block;
+}
+
+.img {
+	text-align:center;
+	border:#CCC solid 1px;
+	width:300px;
+	height:450px;
+	border-style: #CCC solid 1px;
+	margin: 30px;
+}
+
+.img p {
+	font-weight:bold;
+	color:red;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.img h3 {
+	color:blue;
+}
+
+.img a {
+	font-weight:bold;
+	color:#0C0;
+}
+
+
+.phdr {
+	border: #000 solid 1px;
+	background:#141D28;
+	color: #fff;
+	font-weight:bold;
+	width:auto;
+	height: 40px;
+	line-height: 40px;
+}
+
+#content {
+	background: #fff;
+	border:#CCC solid 1px;
+	border-style: #CCC solid 1px;
+}
+
+.list {
+	border: #0080FF solid 1px;
+	background: #468C8C;
+	color: #fff;
+	font-weight:bold;
+	width:auto;
+	height: 40px;
+	line-height: 40px;
+	text-align:center;
+}
+
+.list a {
+	color:#FFF;
+	font-weight:bold;
+	}
+
+a{
+    text-decoration: none;
+}
+
